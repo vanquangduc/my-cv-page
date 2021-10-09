@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.footer {
+    color: #afafaf;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    bottom: 0;
+    width: 100%;
+}
+
+.left-side{
+    overflow-x: hidden; /* Disable horizontal scroll */
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 20px;
+}
+
+[class*="-section"] {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+
+}
+
+/* Intro section */
+#my-avatar {
+    text-align: center;
+    border-radius: 8px;
+    width: 100%;
+    
+}
+
+.intro-section {
+    background-image: url('./image/background-intro.jpg');
+    background-color: #cccccc;
+    /* Used if the image is unavailable */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    color: white;
+
+}
+
+.intro-text {
+    text-align: center;
+    color: white;
+}
+
+/* About me section */
+.about-section,
+.edu-section,
+.skills-section,
+.work-section,
+.cert-section,
+.contact-section {
+    padding: 50px 50px
+}
+
+/* Edu section */
+
+/* Skills section */
+.skills-container {
+    width: 100%;
+    /* Full width */
+    background-color: #ddd;
+    /* Grey background */
+}
+
+.skills {
+    text-align: right;
+    /* Right-align text */
+    color: white;
+    /* White text color */
+    padding: 0 20px;
+}
+
+.network {
+    width: 60%;
+    background-color: #04AA6D;
+}
+
+/* Contact section */
+.icons{
+    font-size: 50px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.808);
+}
+.icons:hover{
+    transition: 0.5s;
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.5);
+}
