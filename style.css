@@ -47,9 +47,14 @@ ul li {
 
 /* Intro section */
 .my-avatar {
-    text-align: center;
-    border-radius: 80%;
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 .intro-section {
     background-image: url('./image/background-intro.jpg');
@@ -113,4 +118,13 @@ ul li {
 .icons:hover{
     transition: 0.5s;
     font-size: 35px;
+}
+
+@media print{
+    body *{
+        visibility: hidden;
+    }
+    .print-area *{
+        visibility: visible;
+    }
 }
