@@ -16,6 +16,15 @@
     width: 100%;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    transition: 0.5s;
+    color: #cccccc;
+}
+
 .left-side{
     overflow-x: hidden; /* Disable horizontal scroll */
 }
@@ -37,11 +46,9 @@ ul li {
 }
 
 /* Intro section */
-#my-avatar {
+.my-avatar {
     text-align: center;
-    border-radius: 8px;
-    width: 100%;
-    
+    border-radius: 80%;
 }
 
 .intro-section {
@@ -70,7 +77,7 @@ ul li {
 .work-section,
 .cert-section,
 .contact-section {
-    padding: 50px 50px
+    padding: 40px
 }
 
 /* Edu section */
@@ -98,12 +105,12 @@ ul li {
 
 /* Contact section */
 .icons{
-    font-size: 50px;
+    font-size: 30px;
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.808);
+    color: #cccccc;
+    justify-content: space-between;
 }
 .icons:hover{
     transition: 0.5s;
-    font-size: 60px;
-    color: rgba(0, 0, 0, 0.5);
+    font-size: 35px;
 }
