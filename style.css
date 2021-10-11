@@ -29,8 +29,12 @@ a:hover{
     overflow-x: hidden; /* Disable horizontal scroll */
 }
 
-ul {
+/* ul {
     list-style-type: none;
+} */
+
+.objective{
+    text-align: justify;
 }
 
 ul li {
